@@ -1,0 +1,141 @@
+html,
+body {
+  font-family: "Lato, Noto Sans TC", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #f6f7f8;
+}
+/* Header */
+header {
+  height: 60px;
+  color: #666666;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+  /*   a是透明度 */
+}
+nav {
+  /*   outline: 5px solid tomato; */
+  max-width: 820px;
+  margin: 0 auto;
+  height: 100%;
+  /* 100%代表與box100%等大 */
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  font-weight: bold; 
+  letter-spacing: 1px;
+}
+
+.nav-link{
+  color: #666666;
+}
+
+/* main */
+main{
+/*   outline: 5px solid red; */
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2{
+  font-size:32px;
+  margin: 24px 0 8px;
+}
+
+h2{
+  font-size:24px;
+  margin: 0 0 8px;
+  font-weight:500;
+/*   normal:400
+  medium:500
+  bold:600 */
+}
+
+section{
+/*   outline:5px solid tomato; */
+  margin-bottom: 48px;
+}
+
+P{
+  color: #666666;
+}
+
+/* personal-info */
+.avatar{
+/*   outline: 3px solid tomato; */
+  text-align: center;
+/*   marginl: 0 auto 直接作用在整個區塊上而非單一物件的置中 */
+}
+
+.avatar-img{
+/*   border: 3px solid tomato; */
+  border-radius: 50px
+}
+
+.name{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;  
+}
+
+.social-media{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-medialink {
+  color: #666666;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-medialink:hover{
+  color: #8bd2c2
+}
+
+/* skill section */
+.skills{
+/*   outline: 5px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill{
+/*   outline: 5px solid blue; */
+  width: 30%
+}
+
+.skill-name{
+  border-top: 1px solid #8bd2c2;
+  padding-top: 16px;
+}
+
+/* experiemce section */
+hr{
+  border: 0px;
+  height: 1px;
+  background: #8bd2c2;
+  margin: 20px 0;
+}
+.company, .duration{
+  color: #666666;
+  font-size: 14px;
+  margin-right: 20px
+  
+}
+.fa-building, .fa-calendar{
+  margin-right: 5px
+}
+
+.title{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #0abbb5
+}
+
